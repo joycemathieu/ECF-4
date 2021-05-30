@@ -2,9 +2,10 @@
  FAIT EN WORDPRESS
 
 ## SOMMAIRE
-1. [Besoins fonctionnels](#Besoinsfonctionnels)
-2. [Maquettes fil de fer](#Maquettesfildefer)
-
+1. [Besoins fonctionnels](#Besoins_fonctionnels)
+2. [Maquettes fil de fer](#Maquettes_fil_de_fer)
+    *
+    *
 3. [Auteur](#Auteur)
 
 ### Besoins fonctionnels
@@ -17,15 +18,7 @@ Le journal local “Le Pays” souhaite se moderniser et créer un site internet
 
 ### Maquettes fil de fer
 ***
-We use in this project:
-* [API Generator](https://6057e432c3f49200173ad08d.mockapi.io/)
-* [API Documentation](https://6057e432c3f49200173ad08d.mockapi.io/docs)
-* [BOOTSTRAP](https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css):Version 5.0.0-beta3
-* [POPPER for BOOTSTRAP](https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js):Version 5.0.0-beta3
 
-### Installation
-***
-No installation is required.
 
 ### Auteur
 ***
