@@ -2,8 +2,8 @@
  FAIT EN WORDPRESS
 
 ## SOMMAIRE
-1. [Besoins fonctionnels](#besoinsfonctionnels)
-2. [Maquettes fil de fer](#maquettesfildefer)
+1. [Besoins fonctionnels](#Besoinsfonctionnels)
+2. [Maquettes fil de fer](#Maquettesfildefer)
 
 3. [Auteur](#Auteur)
 
