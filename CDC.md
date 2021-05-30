@@ -3,9 +3,9 @@
 
 ## SOMMAIRE
 1. [Besoins fonctionnels](#besoinsfonctionnels)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Author](#Author)
+2. [Maquettes fil de fer](#maquettesfildefer)
+
+3. [Auteur](#Auteur)
 
 ### Besoins fonctionnels
 ***
@@ -15,7 +15,7 @@ Le journal local “Le Pays” souhaite se moderniser et créer un site internet
     - Le site devra présenter les articles de manière chronologique et avoir une Une.
     - Le site devra être responsive.
 
-### Technologies
+### Maquettes fil de fer
 ***
 We use in this project:
 * [API Generator](https://6057e432c3f49200173ad08d.mockapi.io/)
@@ -27,6 +27,6 @@ We use in this project:
 ***
 No installation is required.
 
-### Author
+### Auteur
 ***
 Joyce MATHIEU.
