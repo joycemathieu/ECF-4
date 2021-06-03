@@ -5,22 +5,41 @@ Description: Thème réalisé dans le cadre de l'ECF-4.
 Version: 1.0
 */
 
+body{
+  font-family: "Helvetica Neue",Roboto, Helvetica, sans-serif !important;
+}
+
+.navbar-brand{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #000000;
+  }
+
+.navbar-item {
+    color: white !important;
+  }
+
+  .header__img{
+    object-fit: contain;
+    width: 240px;
+  }
+
 .post {
-    font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    padding: 20px;
     flex-basis: auto;
   }
   
+  .post__event,
   .post__category {
     font-size: .8rem;
     text-transform: uppercase;
   }
   
   .post__title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin: 20px 0 10px;
+    margin: 1px 0 10px;
   }
   
   .post__content {
@@ -28,9 +47,12 @@ Version: 1.0
     margin-bottom: 50px;
   }
   
+a{
+  color: #4a4a4a !important;
+}
+  .post__event,
   .post__category,
   .post__permalink {
-    color: #4a4a4a;
     text-decoration: underline;
   }
   
@@ -39,10 +61,31 @@ Version: 1.0
     bottom: 20px;
   }
 
+  .post__featured,
   .post__img{
       object-fit: contain;
+      float: left;
+      margin-right: 10px;
+  }
+
+  .post__img{
+    width: 200px;
+    height:150px;
   }
   
-  .fb-auto {
+.fb-auto {
     flex-basis: auto;
   }
+
+.sidebar,
+article { 
+  padding: 20px !important;
+}
+
+.tile.is-parent{
+  padding: 0 !important;
+}
+
+.container{
+  padding: 30px;
+}
