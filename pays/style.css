@@ -7,6 +7,7 @@ Version: 1.0
 
 body{
   font-family: "Helvetica Neue",Roboto, Helvetica, sans-serif !important;
+  color: #000000 !important;
 }
 
 .navbar-brand{
@@ -20,10 +21,24 @@ body{
   border-color: white !important;
 }
 
-.navbar-dropdown{
-  background-color: #000000 !important;
-}
+.footer,
+.navbar-item :hover,
+.navbar-dropdown,
+.navbar-item :visited,
+.navbar-dropdown:visited,
+.navbar-link.is-active, 
+.navbar-link:focus, 
+.navbar-link:focus-within, 
+.navbar-link:hover, 
+a.navbar-item.is-active, 
+a.navbar-item:focus, 
+a.navbar-item:focus-within, 
+a.navbar-item:hover{
+    background-color: #000000 !important;
+  }
 
+.footer,
+.footer__link,
 .navbar-item {
     color: white !important;
   }
@@ -37,7 +52,29 @@ body{
     position: relative;
     flex-basis: auto;
   }
-  
+
+  .post__archive__title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+    width: min-content;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .post__archive__title-container {
+    position: relative;
+    transform: translateY(-50px);
+  }
+
+  .background-container {
+    background-color: #000000;
+    height: 75px;
+    z-index: -10;
+  }
+
   .post__event,
   .post__category {
     font-size: .8rem;
@@ -49,18 +86,24 @@ body{
     font-weight: 600;
     margin: 1px 0 10px;
   }
-  
+
+  .post__content__single,
   .post__content {
     font-size: 1.3rem;
     margin-bottom: 50px;
   }
+
+  .post__content__single{
+    text-align: center;
+  }
   
 a{
-  color: #4a4a4a !important;
+  color: #000000 !important;
 }
   .post__event,
   .post__category,
-  .post__permalink {
+  .post__permalink,
+  .post__permalink__archive{
     text-decoration: underline;
   }
   
@@ -97,3 +140,35 @@ article {
 .container{
   padding: 30px;
 }
+/* SINGLE */ 
+
+.post__archive__title__single {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.post__archive__title-container__single {
+  position: relative;
+  transform: translateY(-45px);
+}
+
+.background-container__single {
+  background-color: #000000;
+  height: 70px;
+  z-index: -10;
+}
+
+.post__img__single{
+  width:70% !important;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
