@@ -28,14 +28,15 @@ Réglages de lecture
 
 
 ## Table des matières
-1. [Réalisations du cahier des charges et du maquettage](#realisation-du-cahier-des-charges-et-du-maquettage)
-2. [Fabrication du thème](#fabrication-du-theme)
-3. [Mesure de sécurité](#mesure-de-securite)
-4. [Réalisation du fichier README](#realisation-du-fichier-readme)
+1. Réalisations du cahier des charges et du maquettage
+2. Fabrication du thème
+3. Mesure de sécurité
+4. Réalisation du fichier README
 
 ### Réalisations du cahier des charges et du maquettage
 ***
 Le cahier des charges se trouve dans un fichier md nommé CDC.md.
+Il reprend les besoins fonctionnels : 
 
 Le maquettage se trouve dans le dossier Maquettes.
 
