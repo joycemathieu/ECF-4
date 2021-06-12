@@ -18,7 +18,7 @@ Le journal local “Le Pays” souhaite se moderniser et créer un site internet
 
 ### Maquettes fil de fer
 ***
-![alt text](http://url/to/home.jpg) 
+Vous trouverez toutes les maquettes dans le dossier maquettes.
 
 ### Auteur
 ***
