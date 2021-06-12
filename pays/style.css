@@ -48,6 +48,11 @@ a.navbar-item:hover{
     width: 240px;
   }
 
+  .featured,
+  .sidebar{
+    height: 450px;
+  }
+  
 .post {
     position: relative;
     flex-basis: auto;
