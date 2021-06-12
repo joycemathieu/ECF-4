@@ -48,11 +48,6 @@ a.navbar-item:hover{
     width: 240px;
   }
 
-  .featured,
-  .sidebar{
-    height: 450px;
-  }
-  
 .post {
     position: relative;
     flex-basis: auto;
@@ -102,14 +97,32 @@ a.navbar-item:hover{
     text-align: center;
   }
   
+  /*.featured,
+  .sidebar{
+    height: 450px;
+  }*/
+
 a{
   color: #000000 !important;
 }
+
+  .tribe-events-widget-events-list__header,
   .post__event,
   .post__category,
   .post__permalink,
   .post__permalink__archive{
     text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  .tribe-common a, 
+  .tribe-common a:active, 
+  .tribe-common a:focus, 
+  .tribe-common a:hover, 
+  .tribe-common a:visited {
+    text-transform: uppercase;
+    text-decoration: grey;
+    border-bottom-color: black !important;
   }
   
   .post__permalink {

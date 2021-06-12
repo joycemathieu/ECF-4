@@ -1,10 +1,10 @@
-
+<?php if ( ! is_active_sidebar( 'sidebar-1' ) ) {
+    return;
+}
+?>
     <aside class="column is-4 sidebar">
-          <h2 class="post__event">Les évènements à venir</h2>
           <div class="post__event-content">
-          
+          <?php dynamic_sidebar( 'sidebar-widget' ); ?>
           </div>    
-          <h2 class="post__event">Etiquettes</h2>
-          <?php the_tags(); ?>
     </aside>
 </div>
