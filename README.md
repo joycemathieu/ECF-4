@@ -3,7 +3,7 @@ Ce README sert dans le cas où vous souhaiteriez installer ce thème.
 Ce thème WP s'inspire du site https://www.lemonde.fr/
 
 Demo du thème
-http://joyce.devweb.cfa.nc/lepays/
+http://joyce.devweb.cfa.nc/wordpress/
 
 
 ## Table des matières
@@ -30,6 +30,24 @@ Wordpress
     - FakerPress : FakerPress est un moyen propre de générer de fausses données sur votre installation.
     - WPS Hide Login : permet de remplacer le wp-admin pour la connexion sur le tableau de bord.
     - The Events Calendar : permet de générer les évènements.
+
+
+### Mesure de sécurité
+***
+Voici les mesures de sécurité que j'ai prise pour mon site :
+
+Supprimer le compte admin.
+
+Utiliser des identifiants de connexion complexes.
+
+Utiliser le plugin WPS Hide Login qui permet de remplacer le wp-admin pour la connexion sur le tableau de bord.
+
+Limiter le nombre de tentatives de connexion.
+
+
+Restreindre l’accès à mon site en modifiant le htaccess.
+
+### Le pas à pas de l'installation
 
 *Nom des catégories utilisées :*
 
@@ -59,22 +77,3 @@ Autres
 3. Mettre les catégories Sports, Culture en sous élément de la catégorie Sports&Culture.
 4. Mettre les catégories Faits Divers, Economie, Non Classé en sous élément de la catégorie Autres.
 5. Selectionnez dans les catégories évènements l'onglet "Evenements" (Attention bien choisir l'Archive du type de publication).
-
-
-
-### Mesure de sécurité
-***
-Voici les mesures de sécurité que j'ai prise pour mon site :
-
-Supprimer le compte admin.
-
-Utiliser des identifiants de connexion complexes.
-
-Utiliser le plugin WPS Hide Login qui permet de remplacer le wp-admin pour la connexion sur le tableau de bord.
-
-Limiter le nombre de tentatives de connexion.
-
-
-Restreindre l’accès à mon site en modifiant le htaccess.
-
-### Le pas à pas de l'installation
