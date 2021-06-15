@@ -52,16 +52,16 @@ add_action('login_head', 'wpc_custom_login_logo');
 
 // for support widget
 function sidebar_widgets_init() {
- 
+  
     register_sidebar( array(
    
-    'name' => 'sidebar-widget',
-    'id' => 'sidebar-widget-area',
-    'before_widget' => '<div class="post__event-content">',
+    'name' => 'Ma nouvelle zone de widget',
+    'id' => 'new-widget-area',
+    'before_widget' => '<div class="post_event-content">',
     'after_widget' => '</div>',
     'before_title' => '<h2 class="post__event">',
     'after_title' => '</h2>',
     ) );
    }
    
-   add_action( 'widgets_init', 'sidebar_widgets_init' );
+add_action( 'widgets_init', 'sidebar_widgets_init' );

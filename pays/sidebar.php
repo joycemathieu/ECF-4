@@ -1,10 +1,8 @@
-<?php if ( ! is_active_sidebar( 'sidebar-widget' ) ) {
-    return;
-}
-?>
+<?php if ( is_active_sidebar( 'new-widget-area' ) ) : ?>
     <aside class="column is-4 sidebar">
-          <div class="post__event-content">
-          <?php dynamic_sidebar( 'sidebar-widget' ); ?>
-          </div>    
+    <div id="new-widget-area" class="post__event-content" role="complementary">
+        <?php dynamic_sidebar( 'new-widget-area' ); ?>
+    </div>
     </aside>
 </div>
+<?php endif ?>
