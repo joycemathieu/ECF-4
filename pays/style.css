@@ -1,0 +1,192 @@
+/*
+Theme Name: pays
+Author: Joyce MATHIEU
+Description: Thème réalisé dans le cadre de l'ECF-4.
+Version: 1.0
+*/
+
+body{
+  font-family: "Helvetica Neue",Roboto, Helvetica, sans-serif !important;
+  color: #000000 !important;
+}
+
+.navbar-brand{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #000000;
+  }
+
+.navbar-link:not(.is-arrowless)::after{
+  border-color: white !important;
+}
+
+.footer,
+.navbar-item :hover,
+.navbar-dropdown,
+.navbar-item :visited,
+.navbar-dropdown:visited,
+.navbar-link.is-active, 
+.navbar-link:focus, 
+.navbar-link:focus-within, 
+.navbar-link:hover, 
+a.navbar-item.is-active, 
+a.navbar-item:focus, 
+a.navbar-item:focus-within, 
+a.navbar-item:hover{
+    background-color: #000000 !important;
+  }
+
+.footer,
+.footer__link,
+.navbar-item {
+    color: white !important;
+  }
+
+  .header__img{
+    object-fit: contain;
+    width: 240px;
+  }
+
+.post {
+    position: relative;
+    flex-basis: auto;
+  }
+
+  .post__archive__title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+    width: min-content;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .post__archive__title-container {
+    position: relative;
+    transform: translateY(-50px);
+  }
+
+  .background-container {
+    background-color: #000000;
+    height: 75px;
+    z-index: -10;
+  }
+
+  .post__event,
+  .post__category {
+    font-size: .8rem;
+    text-transform: uppercase;
+  }
+  
+  .post__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1px 0 10px;
+  }
+
+  .post__content__single,
+  .post__content {
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+  }
+
+  .post__content__single{
+    text-align: center;
+  }
+  
+  /*.featured,
+  .sidebar{
+    height: 450px;
+  }*/
+
+a{
+  color: #000000 !important;
+}
+
+  .tribe-events-widget-events-list__header,
+  .post__event,
+  .post__category,
+  .post__permalink,
+  .post__permalink__archive{
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  .tribe-common a, 
+  .tribe-common a:active, 
+  .tribe-common a:focus, 
+  .tribe-common a:hover, 
+  .tribe-common a:visited {
+    text-transform: uppercase;
+    text-decoration: grey;
+    border-bottom-color: black !important;
+  }
+  
+  .post__permalink {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  .post__featured,
+  .post__img{
+      object-fit: contain;
+      float: left;
+      margin-right: 10px;
+  }
+
+  .post__img{
+    width: 200px;
+    height:150px;
+  }
+  
+.fb-auto {
+    flex-basis: auto;
+  }
+
+.sidebar,
+article { 
+  padding: 20px !important;
+}
+
+.tile.is-parent{
+  padding: 0 !important;
+}
+
+.container{
+  padding: 30px;
+}
+/* SINGLE */ 
+
+.post__archive__title__single {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.post__archive__title-container__single {
+  position: relative;
+  transform: translateY(-45px);
+}
+
+.background-container__single {
+  background-color: #000000;
+  height: 70px;
+  z-index: -10;
+}
+
+.post__img__single{
+  width:70% !important;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
