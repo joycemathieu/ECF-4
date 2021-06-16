@@ -27,10 +27,14 @@ Le maquettage se trouve dans le dossier Maquettes.
 Outils(plugin) utiliser :
 
 Wordpress
-    - FakerPress : FakerPress est un moyen propre de générer de fausses données sur votre installation.
-    - WPS Hide Login : permet de remplacer le wp-admin pour la connexion sur le tableau de bord.
-    - WPS Limit Login : pour limiter le nombre d'essai de connexion possible avec la même adresse IP.
-    - The Events Calendar : permet de générer les évènements.
+
+FakerPress : FakerPress est un moyen propre de générer de fausses données sur votre installation.
+
+WPS Hide Login : permet de remplacer le wp-admin pour la connexion sur le tableau de bord.
+
+WPS Limit Login : pour limiter le nombre d'essai de connexion possible avec la même adresse IP.
+
+The Events Calendar : permet de générer les évènements.
 
 
 ### Mesure de sécurité
