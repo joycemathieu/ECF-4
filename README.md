@@ -1,5 +1,5 @@
 # ECF-C4
-Ce README sert dans le cas où vous souhaiteriez installer ce thème.
+
 Ce thème WP s'inspire du site https://www.lemonde.fr/
 
 Demo du thème
@@ -29,6 +29,7 @@ Outils(plugin) utiliser :
 Wordpress
     - FakerPress : FakerPress est un moyen propre de générer de fausses données sur votre installation.
     - WPS Hide Login : permet de remplacer le wp-admin pour la connexion sur le tableau de bord.
+    - WPS Limit Login : pour limiter le nombre d'essai de connexion possible avec la même adresse IP.
     - The Events Calendar : permet de générer les évènements.
 
 
@@ -42,12 +43,12 @@ Utiliser des identifiants de connexion complexes.
 
 Utiliser le plugin WPS Hide Login qui permet de remplacer le wp-admin pour la connexion sur le tableau de bord.
 
-Limiter le nombre de tentatives de connexion.
+Utiliser le plugin WPS Limit Login qui limite le nombre de tentatives de connexion.
 
-
-Restreindre l’accès à mon site en modifiant le htaccess.
 
 ### Le pas à pas de l'installation
+
+ACTIVER LE THEME
 
 *Nom des catégories utilisées :*
 
@@ -77,3 +78,7 @@ Autres
 3. Mettre les catégories Sports, Culture en sous élément de la catégorie Sports&Culture.
 4. Mettre les catégories Faits Divers, Economie, Non Classé en sous élément de la catégorie Autres.
 5. Selectionnez dans les catégories évènements l'onglet "Evenements" (Attention bien choisir l'Archive du type de publication).
+
+*Réglages FakerPress :*
+Création des articles avec 1 catégorie uniquement.
+
